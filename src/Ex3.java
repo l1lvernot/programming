@@ -13,9 +13,7 @@ public class Ex3 {
     static int zzz(int n) {
         int x = (int) (n / (Math.pow(10, shtoto(n) - 1)));
         int x1 = n % 10;
-
         n = n * 10 + ((x + x1) % 10);
-
         x1 = n % 10;
         n = n * 10 + ((x + x1) % 10);
         return n;
